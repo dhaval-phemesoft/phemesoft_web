@@ -4017,7 +4017,9 @@ a.sm-tags:hover {
     letter-spacing: 0px;
     font-family: 'Libre Baskerville', serif;
 }
-
+.proofImg{
+	height: 400px;
+}
 .resp-container {
     position: relative;
     overflow: hidden;
