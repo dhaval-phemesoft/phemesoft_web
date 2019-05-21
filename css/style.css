@@ -84,7 +84,7 @@ h6 {
 p {
 	font-family: inherit;
 	font-weight: 400;
-	color: #1e1e1e;
+	color: #474747;
 	line-height: 24px;
 	text-rendering: optimizeLegibility;
 	font-family: 'Montserrat', sans-serif;
@@ -1975,7 +1975,7 @@ text-align: center;
 }
 .social li a:hover {
 	color: #fff;
-	background: #1193d4;
+	background: #b21ca4;
 }
 /*=======================================================
       TEAM
@@ -3093,7 +3093,7 @@ a.sm-tags:hover {
 	position: relative;
 	padding: 10px 20px;
 	border: 1px solid #ececec;
-	height: 200px;
+	height: 120px;
 	border-radius: 4px;
 	background: #fff;
 	box-shadow: none !important;
@@ -4721,7 +4721,10 @@ body {
 .Phemeline{
 	border-bottom: 3px solid #df45e9;
 }
-
+.pointer{
+	cursor: pointer;
+}
+.pointer:hover { color: #1193d4; }
 
 
 /* Marquee */
