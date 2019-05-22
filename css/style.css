@@ -224,7 +224,7 @@ a:hover, a:focus {
 	padding-right:55px;
 	padding-left: 20px;
 	line-height: 40px;
-	background: #1193d4;
+	background: #df45e9f0;
 	letter-spacing: 0.5px;
 	-webkit-transition: 0.4s ease-in-out;
 	-moz-transition: 0.4s ease-in-out;
@@ -615,10 +615,10 @@ header .navbar li.active a {
 ========================================================*/
 .home-slide {
 	position: relative;
-	height: 460px;
+	height: 350px;
 }
 .home-slide li {
-	height: 460px;
+	height: 350px;
 	text-align: center;
 	position: relative;
 }
@@ -639,6 +639,10 @@ header .navbar li.active a {
 }
 .home-slide .slide-img-2 {
 	background: url(../images/slides/service2.jpg) center center no-repeat;
+	background-size: cover;
+}
+.home-slide .slide-img-3 {
+	background: url(../images/slides/student_involvement.jpg) center center no-repeat;
 	background-size: cover;
 }
 .home-slide .flex-control-nav {
@@ -4659,6 +4663,9 @@ body {
 .phemecolor{
 	color: #df45e9f0;
 }
+.whiteColor{
+	color: #fff;
+}
 .marginTop1{
 	margin-top: 1%;
 }
@@ -4828,4 +4835,12 @@ body {
 	/* text-transform: uppercase; */
 	color: #fff;
 	text-align: justify;
+}
+.fontBorderHeader{
+	color: white;
+	text-shadow: -1px 0 #646161, 0 1px #706f6f, 1px 0 black, 0 -1px black;
+}
+.fontBorderHeader2{
+	color: white;
+	text-shadow: 0px 0 #646161, 0 1px #706f6f, 1px 0 black, 0 -1px black;
 }
