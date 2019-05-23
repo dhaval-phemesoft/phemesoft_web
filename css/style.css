@@ -4264,6 +4264,14 @@ a.sm-tags-link:hover {
     }
 }
 /* engage us */
+.zoom {     
+    transition: transform .2s;
+}
+  
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    transform: scale(1.1);
+}
 .displaynone{
     display: none;
 }
@@ -4845,4 +4853,22 @@ body {
 .fontBorderHeader2{
 	color: white;
 	text-shadow: 0px 0 #646161, 0 1px #706f6f, 1px 0 black, 0 -1px black;
+}
+.dev{
+	position: absolute;
+    top: 35%;
+    left: 12%;
+    font-size: 25px;
+}
+.skills{
+	position: absolute;
+    top: 35%;
+    left: 17%;
+    font-size: 25px;
+}
+.prodct{
+	position: absolute;
+    top: 35%;
+    left: 6%;
+    font-size: 25px;
 }
