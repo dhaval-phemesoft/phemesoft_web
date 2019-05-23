@@ -2,80 +2,6 @@
  * 	CSS3 Only Horizontal Accordion
  */
 
-/*  
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
-audio:not([controls]) { display: none; }
-[hidden] { display: none; }
-html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-body { margin: 0; font-size: 13px; line-height: 1.231; }
-body, button, input, select, textarea { font-family: sans-serif; color: #222; } */
-
-/* Image Align with in the slider */
-/* .alignleft {
-    float: left;
-}
-.alignright {
-    float: right;
-}
-.aligncenter {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.accordion { width:auto; overflow:hidden; margin:10px auto; color:#474747; background:#414141; padding:10px; }
-
-
-.accordion section:target { background:#FFF; padding:10px;}
-.accordion section:target:hover { background:#FFF; }
-.accordion section:target h2 {width:100%;}
-.accordion section:target h2 a{ color:#333; padding:0;}
-.accordion section:target p {display:block;}
-.accordion section h2 a{padding:8px 10px;display:block; font-size:16px; font-weight:normal;color:#eee; text-decoration:none; }
-
-
-.accordion section{ float:left;	overflow:hidden; color:#333; cursor:pointer; background: #333; margin:3px; }
-.accordion section:hover {background:#444;}
-.accordion section p { display:none; }
-.accordion section:after{position:relative;font-size:24px;color:#000;font-weight:bold;}
-.accordion section:nth-child(1):after{}
-.accordion section:nth-child(2):after{}
-.accordion section:nth-child(3):after{}
-.accordion section:nth-child(4):after{}
-.accordion section:nth-child(5):after{}
-.accordion section:nth-child(6):after{}
-
-.horizontal section{ width:4.7%; height:232px; 
-	-moz-transition:width 0.2s ease-out; 
-	-webkit-transition:width 0.2s ease-out;
-  	-o-transition:width 0.2s ease-out;
-	-ms-transition:width 0.2s ease-out;
-  	transition:width 0.2s ease-out;
-}
-
-
-.horizontal section:after{top:140px;left:15px;}
-
-
-.horizontal section h2 { 
-	-webkit-transform:rotate(90deg);
-	-moz-transform:rotate(90deg);
-	-o-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	transform: rotate(90deg);
-	width:240px; position:relative; left:-100px; top:85px;
-} 
-
-.horizontal :target{ width:73%;height:230px; }
-.horizontal :target h2{ top:0px;left:0;
-	-webkit-transform:rotate(0deg);
-	-moz-transform:rotate(0deg);
-	-o-transform: rotate(0deg);
-	-ms-transform: rotate(0deg);
-	transform: rotate(0deg); 
-} */
-
 *, *:before, *:after {
   position: relative;
   padding: 0;
@@ -121,7 +47,7 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; } 
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.34) 5%, rgba(0,0,0,0));
   color: #fff;
 
-  opacity: 1;
+  /* opacity: 1; */
 }
 .accordion a:hover .accordion_item_inf {opacity: 0;}
 
@@ -142,6 +68,38 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222; } 
   text-align: center;
   font-weight: bold;
   color: white;
+}
+
+.accordion_title{
+	writing-mode: tb-rl;
+}
+
+.opecity_0 {opacity: 0;}
+.opecity_1 {opacity: 1;}
+.displaynone{
+  display: none;
+}
+
+.accordion_title{
+  top: 5%;
+  left: 0%;
+  /* position: absolute; */
+  /* right: 0px; */
+  /* padding: 35px 22px; */
+  bottom: 5%;
+  left: 21.5px;
+  text-align: center;
+  transform: rotate(0deg) translate(-40%, 0%);
+  transform-origin: left;
+  color: white;
+  /* font-size: inherit; */
+  background: rgba(255, 255, 255, 0.8);
+  font-size: 1.5rem;
+  font-family: GothamBold;
+  color: #333333;
+  position: absolute;
+  padding: 1rem;
+  text-align: center;
 }
 
 /* .accordion .accordion_item_inf_text {font-size: 15px;  color: white;} */

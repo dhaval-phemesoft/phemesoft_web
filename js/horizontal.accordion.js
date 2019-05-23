@@ -12,3 +12,53 @@ $accordion_a.hover(function(){
 },function(){
   $accordion_a.css('width',$accordion_a_w+'%');
 });
+
+// for knowbots
+$('#accordion_item_inf_1').hover(
+    function(){ $('.accordion_2').toggleClass('opecity_0'),$('.accordion_3').toggleClass('opecity_0'),$('.accordion_4').toggleClass('opecity_0'),$('.accordion_5').toggleClass('opecity_0'),$('.accordion_6').toggleClass('opecity_0')}
+)
+$('#accordion_item_inf_1').hover(
+    function(){ $('#accordion_title_2').toggleClass('displaynone'),$('#accordion_title_3').toggleClass('displaynone'),$('#accordion_title_4').toggleClass('displaynone'),$('#accordion_title_5').toggleClass('displaynone'),$('#accordion_title_6').toggleClass('displaynone')}
+)
+
+// for virtual lab
+$('#accordion_item_inf_2').hover(
+    function(){ $('.accordion_1').toggleClass('opecity_0'),$('.accordion_3').toggleClass('opecity_0'),$('.accordion_4').toggleClass('opecity_0'),$('.accordion_5').toggleClass('opecity_0'),$('.accordion_6').toggleClass('opecity_0')}
+)
+$('#accordion_item_inf_2').hover(
+    function(){ $('#accordion_title_1').toggleClass('displaynone'),$('#accordion_title_3').toggleClass('displaynone'),$('#accordion_title_4').toggleClass('displaynone'),$('#accordion_title_5').toggleClass('displaynone'),$('#accordion_title_6').toggleClass('displaynone')}
+)
+
+// for iceberg
+$('#accordion_item_inf_3').hover(
+    function(){ $('.accordion_1').toggleClass('opecity_0'),$('.accordion_2').toggleClass('opecity_0'),$('.accordion_4').toggleClass('opecity_0'),$('.accordion_5').toggleClass('opecity_0'),$('.accordion_6').toggleClass('opecity_0')}
+)
+$('#accordion_item_inf_3').hover(
+    function(){ $('#accordion_title_1').toggleClass('displaynone'),$('#accordion_title_2').toggleClass('displaynone'),$('#accordion_title_4').toggleClass('displaynone'),$('#accordion_title_5').toggleClass('displaynone'),$('#accordion_title_6').toggleClass('displaynone')}
+)
+
+// for rich content development service
+$('#accordion_item_inf_4').hover(
+    function(){ $('.accordion_1').toggleClass('opecity_0'),$('.accordion_2').toggleClass('opecity_0'),$('.accordion_3').toggleClass('opecity_0'),$('.accordion_5').toggleClass('opecity_0'),$('.accordion_6').toggleClass('opecity_0')}
+)
+$('#accordion_item_inf_4').hover(
+    function(){ $('#accordion_title_1').toggleClass('displaynone'),$('#accordion_title_2').toggleClass('displaynone'),$('#accordion_title_3').toggleClass('displaynone'),$('#accordion_title_5').toggleClass('displaynone'),$('#accordion_title_6').toggleClass('displaynone')}
+)
+
+// for smartbots
+$('#accordion_item_inf_5').hover(
+    function(){ $('.accordion_1').toggleClass('opecity_0'),$('.accordion_2').toggleClass('opecity_0'),$('.accordion_3').toggleClass('opecity_0'),$('.accordion_4').toggleClass('opecity_0'),$('.accordion_6').toggleClass('opecity_0')}
+)
+$('#accordion_item_inf_5').hover(
+    function(){ $('#accordion_title_1').toggleClass('displaynone'),$('#accordion_title_2').toggleClass('displaynone'),$('#accordion_title_3').toggleClass('displaynone'),$('#accordion_title_4').toggleClass('displaynone'),$('#accordion_title_6').toggleClass('displaynone')}
+)
+
+// for skill development
+$('#accordion_item_inf_6').hover(
+    function(){ $('.accordion_1').toggleClass('opecity_0'),$('.accordion_2').toggleClass('opecity_0'),$('.accordion_3').toggleClass('opecity_0'),$('.accordion_4').toggleClass('opecity_0'),$('.accordion_5').toggleClass('opecity_0')}
+)
+$('#accordion_item_inf_6').hover(
+    function(){ $('#accordion_title_1').toggleClass('displaynone'),$('#accordion_title_2').toggleClass('displaynone'),$('#accordion_title_3').toggleClass('displaynone'),$('#accordion_title_4').toggleClass('displaynone'),$('#accordion_title_5').toggleClass('displaynone')}
+)
+
+
