@@ -4573,7 +4573,7 @@ body {
     margin-top: 10px;
 }
 .sub-bnr.bnr-5 {
-    background: url(../img/engage_us/adults-businessman-close-up-bnr.jpg) no-repeat;
+    background: url(../img/bener/product_banner.jpg) no-repeat;
     background-size: cover;
     min-height: 155px;
     text-align: center;
@@ -4598,7 +4598,10 @@ body {
     text-align: center;
 }
 .sub-bnr.bnr-9 {
-    background: url(../img/our_story/adult-blur-bottle-258353.jpg) no-repeat;
+    background: linear-gradient(
+		rgba(192, 192, 192, 0.3),
+		rgba(192, 192, 192, 0.3)
+	  ), url(../img/our_story/adult-blur-bottle-258353.jpg) no-repeat;
     background-size: cover;
     min-height: 155px;
     text-align: center;
@@ -4610,7 +4613,10 @@ body {
     text-align: center;
 }
 .sub-bnr.bnr-11 {
-    background: url(../img/bener/PoP1.jpg) no-repeat;
+    background: linear-gradient(
+		rgba(192, 192, 192, 0.3),
+		rgba(192, 192, 192, 0.3)
+	  ), url(../img/bener/our_customer.jpg) no-repeat;
     background-size: cover;
     min-height: 155px;
     text-align: center;
@@ -4629,7 +4635,12 @@ body {
 }
 
 .sub-bnr.bnr-14 {
-    background: url(../img/bener/OurPartners-Header.jpg) no-repeat;
+	/* background: url(../img/bener/blurred-hands-handshake.jpg) no-repeat; */
+	background: 
+    linear-gradient(
+      rgba(192, 192, 192, 0.3),
+      rgba(192, 192, 192, 0.3)
+    ), url(../img/bener/partners.jpg) no-repeat;
     background-size: cover;
     min-height: 155px;
     text-align: center;
@@ -4640,16 +4651,25 @@ body {
     min-height: 155px;
     text-align: center;
 }
+.sub-bnr.bnr-16 {
+    background: linear-gradient(
+		rgba(192, 192, 192, 0.3),
+		rgba(192, 192, 192, 0.3)
+	  ),url(../img/bener/contact_us.jpg) no-repeat;
+    background-size: cover;
+    min-height: 155px;
+    text-align: center;
+}
 .skilling_partner{
 	position: absolute;
-    top: 69%;
+    top: 41%;
     left: 17%;
 	color: #e452ed;
 	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
  }
 .development_partner{
 	position: absolute;
-    top: 69%;
+    top: 41%;
     left: 6%;
 	color: #e452ed;
 	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
@@ -4661,9 +4681,9 @@ body {
 	color: #e452ed;
 	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
  }
-.buy_our_product{
+.cloud_partner{
 	position: absolute;
-	top: 76%;
+	top: 45%;
 	left: 19%;
 	color: #e452ed;
 	text-shadow: 2px 0 0 #fff, -2px 0 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff, 1px 1px #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff;
