@@ -176,7 +176,8 @@
                   or fill a form and submit to the mail id provided in the website.</li> -->
                 <li>Even better, just call us or send a mail, our expert team will get in touch with you and take the
                   story forward</li>
-                <li>For any queries <a href="contact.html"><u>click here</u></a> </li>
+                <li>For any queries <a class="point" data-toggle="modal" data-target="#myForm"><u>click here</u></a>
+                </li>
               </ul>
             </div>
           </div>
@@ -188,7 +189,6 @@
 
     <!-- Content -->
     <div id="content">
-
       <!-- Job -->
       <section class="job padding-top-20 padding-bottom-70">
         <div class="container">
@@ -200,7 +200,6 @@
             <!-- About Admin -->
             <h4 class="font-normal margin-bottom-20" style="text-transform: initial;">Want to partner with us in this
               journey?</h4>
-            <!-- <h4 class="font-normal margin-bottom-20">are you interested for partnership</h4> -->
             <div class="best-services">
               <!-- Row -->
               <div class="">
@@ -211,7 +210,6 @@
                     <article class="thumb">
                       <h4><strong class="development_partner">Development partners</strong></h4>
                       <img class="button colio-link img-responsive point" src="img/engage_us/devpartner.jpg" alt="">
- 
                     </article><br>
                   </li>
                   <!-- <li class="col-md-4">
@@ -243,7 +241,6 @@
                     <article class="thumb">
                       <h4><strong class="cloud_partner">cloud partners</strong></h4>
                       <img class="button colio-link img-responsive point" src="img/partners/partv.jpg" alt="">
- 
                     </article><br>
                   </li>
 
@@ -260,7 +257,7 @@
             </div>
 
             <!-- Storage Tab Open -->
-             <div id="colio_c4" class="colio-content">
+            <div id="colio_c4" class="colio-content">
               <div class="main">
                 <div class="container">
                   <div class="inside-colio">
@@ -365,7 +362,7 @@
                   </div>
                 </div>
               </div>
-            </div> 
+            </div>
 
           </div>
       </section>
@@ -581,6 +578,62 @@
         </div>
       </div> -->
     <!-- end -->
+
+    <!-- form modal -->
+    <div class="heading text-left margin-top-30 margin-bottom-30">
+      <!-- Modal -->
+      <div class="modal fade" style="margin-top: 50px;" id="myForm" role="dialog">
+        <div class="modal-dialog">
+          <!-- Modal content-->
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h5 class="modal-title">Get in touch with us</h5>
+            </div>
+            <div class="modal-body">
+              <div class="contact-form">
+                <div id="contact_message" class="success-msg"> <i class="fa fa-paper-plane-o"></i>Thank You. Your
+                  Message has been Submitted</div>
+
+                <form role="form" id="contact_form" class="contact-form" method="post" onSubmit="return false">
+                  <ul class="row">
+                    <li class="col-sm-12">
+                      <label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="Name">
+                      </label>
+                    </li>
+                    <li class="col-sm-12">
+                      <label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="Email">
+                      </label>
+                    </li>
+                    <li class="col-sm-12">
+                      <label>
+                        <input type="text" class="form-control" name="company" id="company" placeholder="Subject">
+                      </label>
+                    </li>
+                    <li class="col-sm-12">
+                      <label>
+                        <textarea class="form-control" name="message" id="message" rows="2"
+                          placeholder="Message"></textarea>
+                      </label>
+                    </li>
+                    <li class="col-sm-12">
+
+                    </li>
+                  </ul>
+                </form>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="submit" value="submit" class="btn btn-2 simpleBtn" id="btn_submit"
+                onClick="proceed();">submit</button>
+              <button type="button" class="btn btn-success simpleBtn" data-dismiss="modal">Cancel</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
   </div>
 
