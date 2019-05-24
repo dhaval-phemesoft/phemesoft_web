@@ -4910,3 +4910,8 @@ body {
     left: 6%;
     font-size: 25px;
 }
+.simpleBtn{
+	background-color: #727272; 
+	color: white;
+	padding-right: 20px;
+}
