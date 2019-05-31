@@ -990,21 +990,33 @@ footer .photo-steam {
 	.accordion_title{
 		left: 0.3px !important;
 	}	
+	.HomeImg{
+		height: 140px;
+	}
 }
 @media(max-width:376px) and (min-width:299px) {
 	.accordion_title{
 		left: 3.3px !important;
 	}	
+	.HomeImg{
+		height: 140px;
+	}
 }
 @media(max-width:426px) and (min-width:374px) {
 	.accordion_title{
 		left: 7px !important;
 	}	
+	.HomeImg{
+		height: 140px;
+	}
 }
 @media(max-width:769px) and (min-width:599px) {
 	.accordion_title{
 		left: 31px !important;
 	}	
+	.HomeImg{
+		height: 140px;
+	}
 }
 
 
