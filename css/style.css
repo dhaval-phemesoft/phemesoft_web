@@ -4294,6 +4294,10 @@ a.sm-tags-link:hover {
 .displaynone{
     display: none;
 }
+.displaynoneForHome{
+    display: none;
+}
+
 
 /* for smartbots page */
 .diamond-round{

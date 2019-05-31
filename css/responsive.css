@@ -177,6 +177,12 @@ header .navbar li a {
 	width: 33.3333%;
 	padding: 0px;
 }
+.floatleftContact{
+	float: left !important;
+}
+.floatrightContact{
+	float: right !important;
+}
 footer h4 {
 	display: inline-block;
 	width: 100%;
@@ -569,6 +575,9 @@ header {
 	width: 33.3333%;
 	padding: 0px;
 }
+.floatrightContact{
+	float: right !important;
+}
 footer h4 {
 	display: inline-block;
 	width: 100%;
@@ -683,6 +692,7 @@ header .quotes a {
 }
 header .ownmenu {
 	width: 100%;
+	background-color: white;
 }
 .home-slide .position-center-center {
 	width: 100%;
@@ -952,6 +962,12 @@ footer .photo-steam {
 		background-color: black;
 		color: white;
 	}
+	.displaynoneForHome{
+		display: block;
+	}
+	.accordion_item_inf_title{
+		display: none;
+	}
 }
 
 
@@ -1002,6 +1018,12 @@ footer .photo-steam {
 	.proofImg{
 		height: auto;
 	}
+	.displaynoneForHome{
+		display: block;
+	}
+	.accordion_item_inf_title{
+		display: none;
+	}
 }
 
 
@@ -1050,6 +1072,15 @@ footer .photo-steam {
 	}
 	.headerSize{
 		width: auto;
+	}
+	.displaynoneForHome{
+		display: block;
+	}
+	.accordion_item_inf_title{
+		display: none;
+	}
+	.map-padding{
+		text-align: center
 	}
 }
 
