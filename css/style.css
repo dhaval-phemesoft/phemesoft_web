@@ -2376,12 +2376,8 @@ a.sm-tags:hover {
 .rights {
     padding: 15px 0;
     background: #11141c;
-    position: absolute;
-    bottom: 0;
-	width: 100%;
-	margin-bottom: -5px;
-    /* height: 60px; */
 }
+
 .rights p {
 	color: #fff;
 	font-weight: 700;
@@ -2392,6 +2388,29 @@ a.sm-tags:hover {
 	margin-left:30px;
 }
 .rights a:hover{
+	color:#fff;
+}
+
+.rightsHome {
+    padding: 15px 0;
+    background: #11141c;
+    position: absolute;
+    bottom: 0;
+	width: 100%;
+	margin-bottom: -5px;
+    /* height: 60px; */
+}
+
+.rightsHome  p {
+	color: #fff;
+	font-weight: 700;
+	margin: 0px;
+}
+.rightsHome  a{
+	color:#999999;
+	margin-left:30px;
+}
+.rightsHome  a:hover{
 	color:#fff;
 }
 .chart-page .payment_steps {
