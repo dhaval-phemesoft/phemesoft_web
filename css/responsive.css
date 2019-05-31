@@ -972,8 +972,45 @@ footer .photo-steam {
 		margin-top: -10px;
 		height: 22px;
 	}
+	
+	.HomeFooter1{
+		text-align: center;
+	}
+	.HomeFooter2{
+		float: left;
+	}
+	.HomeFooter3{
+		float: right;
+	}
+	.HomeFooter4{
+		text-align: center;
+	}
+}
+@media(max-width:321px) and (min-width:300px) {
+	.accordion_title{
+		left: 0.3px !important;
+	}	
+}
+@media(max-width:376px) and (min-width:299px) {
+	.accordion_title{
+		left: 3.3px !important;
+	}	
+}
+@media(max-width:426px) and (min-width:374px) {
+	.accordion_title{
+		left: 7px !important;
+	}	
+}
+@media(max-width:769px) and (min-width:599px) {
+	.accordion_title{
+		left: 31px !important;
+	}	
 }
 
+
+/* .accordion_title{
+	left: 7.2px !important;
+} */
 
 @media(max-width:426px) and (min-width:374px) {
 	/* For 426 */
@@ -1033,6 +1070,18 @@ footer .photo-steam {
 		height: 28px;
 	}
 
+	.HomeFooter1{
+		text-align: center;
+	}
+	.HomeFooter2{
+		float: left;
+	}
+	.HomeFooter3{
+		float: right;
+	}
+	.HomeFooter4{
+		text-align: center;
+	}
 }
 
 
