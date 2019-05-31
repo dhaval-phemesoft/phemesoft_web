@@ -968,6 +968,10 @@ footer .photo-steam {
 	.accordion_item_inf_title{
 		display: none;
 	}
+	.HomePageLogo{
+		margin-top: -10px;
+		height: 22px;
+	}
 }
 
 
@@ -1024,6 +1028,11 @@ footer .photo-steam {
 	.accordion_item_inf_title{
 		display: none;
 	}
+	.HomePageLogo{
+		margin-top: -10px;
+		height: 28px;
+	}
+
 }
 
 
@@ -1082,6 +1091,7 @@ footer .photo-steam {
 	.map-padding{
 		text-align: center
 	}
+
 }
 
 

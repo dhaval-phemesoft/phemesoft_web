@@ -2380,7 +2380,7 @@ a.sm-tags:hover {
     bottom: 0;
 	width: 100%;
 	margin-bottom: -5px;
-    height: 60px;
+    /* height: 60px; */
 }
 .rights p {
 	color: #fff;
@@ -4925,4 +4925,8 @@ body {
 	background-color: #727272; 
 	color: white;
 	padding-right: 20px;
+}
+.HomePageLogo{
+	margin-top: -10px;
+	height: 57px;
 }
