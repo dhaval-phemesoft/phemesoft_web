@@ -2378,7 +2378,8 @@ a.sm-tags:hover {
     background: #11141c;
     position: absolute;
     bottom: 0;
-    width: 100%;
+	width: 100%;
+	margin-bottom: -5px;
     height: 60px;
 }
 .rights p {
