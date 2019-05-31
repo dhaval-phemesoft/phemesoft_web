@@ -618,7 +618,8 @@ header .navbar li.active a {
 	height: 410px;
 }
 .home-slide li {
-	height: 410px;
+	/* height: 410px; */
+	height: auto;
 	text-align: center;
 	position: relative;
 }
