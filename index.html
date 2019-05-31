@@ -35,7 +35,7 @@
 <script src="js/modernizr.js"></script>
 
 </head>
-<body>
+<body  id="main">
 
 <!-- Wrap -->
 <div id="wrap"> 
@@ -301,6 +301,14 @@
 <script src="js/jquery.colio.min.js"></script> 
 <script src="js/main.js"></script>
 <script src="js/horizontal.accordion.js"></script>
+<script language="javascript">
+  function autoResizeDiv()
+  {
+      document.getElementById('main').style.height = window.innerHeight +'px';
+  }
+  window.onresize = autoResizeDiv;
+  autoResizeDiv();
+</script>
 
 <!-- Load Babel -->
 <!-- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script> -->
